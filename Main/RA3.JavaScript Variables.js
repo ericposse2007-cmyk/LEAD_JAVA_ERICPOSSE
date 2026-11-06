@@ -25,4 +25,7 @@ var variable_ex4="Hola";
 console.log(variable_ex4);
 variable_ex4= 3;
 console.log(variable_ex4);
-
+/*EX5*/
+console.log("Ex5");
+const laMevaConstant = "Hola";
+console.log(laMevaConstant);
