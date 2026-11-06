@@ -17,5 +17,12 @@ console.log(variableVar);
 var variableVar="Adeu";
 
 console.log("Ex3 - Provant let");
-console.log(variableLet);
+// console.log(variableLet);
 let variableLet="Adeu";
+/*EX4*/
+console.log("Ex4");
+var variable_ex4="Hola";
+console.log(variable_ex4);
+variable_ex4= 3;
+console.log(variable_ex4);
+
