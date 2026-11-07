@@ -27,3 +27,8 @@ let nomComplet = "Eric Posse Muñoz";
 let primerCognom = nomComplet.slice(5, 10);
 console.log("Primer cognom: " + primerCognom);
 console.log("Número de caràcters: " + primerCognom.length);
+/*EX10*/
+console.log("EX10");
+let nomComplet_10 = "Eric Posse Muñoz";
+let resultat = nomComplet_10.slice(0, 6) + nomComplet_10.slice(7);
+console.log("Resultat: " + resultat);
