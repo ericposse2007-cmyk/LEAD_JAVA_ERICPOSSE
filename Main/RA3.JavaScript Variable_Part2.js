@@ -38,3 +38,11 @@ let varUndefined = undefined;
 let varNull = null;
 let suma = varUndefined + varNull;
 console.log("Suma d'undefined i null: " + suma);
+/* EX12 */
+console.log("EX12");
+let esCert = true;
+let coercioExplicita = String(esCert);
+console.log("Explícita: " + coercioExplicita + "(" + typeof coercioExplicita +")");
+
+let coercioImplicita = "" + esCert;
+console.log("Implícita: " + coercioImplicita + "(" + typeof coercioImplicita +")");
