@@ -32,3 +32,9 @@ console.log("EX10");
 let nomComplet_10 = "Eric Posse Muñoz";
 let resultat = nomComplet_10.slice(0, 6) + nomComplet_10.slice(7);
 console.log("Resultat: " + resultat);
+/* EX11 */
+console.log("EX11");
+let varUndefined = undefined;
+let varNull = null;
+let suma = varUndefined + varNull;
+console.log("Suma d'undefined i null: " + suma);
