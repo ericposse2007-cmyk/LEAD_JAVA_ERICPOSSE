@@ -54,3 +54,11 @@ console.log("Explícita: " + coercioExplicita_ex13 + "(" + typeof coercioExplici
 
 let coercioImplicita_ex13 = !!text;
 console.log("Implícita: " + coercioImplicita_ex13 + "(" + typeof coercioImplicita_ex13 + ")");
+/*EX14*/
+console.log("EX14");
+let esCert_ex14 = true;
+let coercioExplicita_ex14 = Number(esCert_ex14);
+console.log("Explícita: " + coercioExplicita_ex14 + "(" + typeof coercioExplicita_ex14 + ")");
+
+let coercioImplicita_ex14 = +esCert_ex14;
+console.log("Implícita: " + coercioImplicita_ex14 + "(" + typeof coercioImplicita_ex14 + ")");
