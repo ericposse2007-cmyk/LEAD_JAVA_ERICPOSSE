@@ -46,3 +46,11 @@ console.log("Explícita: " + coercioExplicita + "(" + typeof coercioExplicita +"
 
 let coercioImplicita = "" + esCert;
 console.log("Implícita: " + coercioImplicita + "(" + typeof coercioImplicita +")");
+/*EX13*/
+console.log("EX13")
+let text = "Hola";
+let coercioExplicita_ex13 = Boolean(text);
+console.log("Explícita: " + coercioExplicita_ex13 + "(" + typeof coercioExplicita_ex13 + ")");
+
+let coercioImplicita_ex13 = !!text;
+console.log("Implícita: " + coercioImplicita_ex13 + "(" + typeof coercioImplicita_ex13 + ")");
