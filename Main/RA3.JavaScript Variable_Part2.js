@@ -21,3 +21,9 @@ let textNumero = "2";
 let textLletres = "hola";
 console.log(enter / textNumero);
 console.log(enter / textLletres);
+/*EX9*/
+console.log("EX9")
+let nomComplet = "Eric Posse Muñoz";
+let primerCognom = nomComplet.slice(5, 10);
+console.log("Primer cognom: " + primerCognom);
+console.log("Número de caràcters: " + primerCognom.length);
