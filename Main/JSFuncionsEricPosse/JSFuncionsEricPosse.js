@@ -24,4 +24,22 @@ function prova() {
     let missatge = "Hola";
 }
 console.log(missatge);
- */
+*/
+/*EX5*/
+console.log("EX5");
+
+function comptarVocals(text) {
+    let vocals = "aeiou";
+    let comptador = 0;
+
+    for (let i = 0; i < text.length; i++) {
+        if (vocals.includes(text[i])) {
+            comptador++;
+        }
+    }
+
+    return comptador;
+}
+let frase = "Hola";
+let resultat = comptarVocals(frase);
+console.log("El text conté " + resultat + " vocals.");
