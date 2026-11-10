@@ -18,3 +18,10 @@ function data(data) {
     console.log(data)
 }
 data("10/11/2026")
+/*EX4
+console.log("EX4")
+function prova() {
+    let missatge = "Hola";
+}
+console.log(missatge);
+ */
