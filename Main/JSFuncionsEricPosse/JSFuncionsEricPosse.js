@@ -53,3 +53,11 @@ let prova1 = sumarTres(2, 3, 5);
 console.log("Suma de 3: " + prova1);
 let prova2 = sumarTres(2, 3);
 console.log("Suma amb valor per defecte: " + prova2);
+/*EX7*/
+console.log("EX7")
+function exercici7() {
+    data("10/11/2026");
+    return sumarTres(2, 3, 5);
+}
+let resultatEx7 = exercici7();
+console.log("Resultat de l'exercici 7: " + resultatEx7);
