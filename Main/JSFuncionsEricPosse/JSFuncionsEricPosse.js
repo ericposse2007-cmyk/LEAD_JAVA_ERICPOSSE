@@ -100,3 +100,7 @@ console.log(mateixValorITipus("a", "a"));
 console.log("EX11");
 const arrelQuadrada = num => Math.sqrt(num).toFixed(2);
 console.log("L'arrel quadrada de 16 amb dos decimals és: " + arrelQuadrada(16));
+/*EX12*/
+console.log("EX12");
+const aMinuscules = text => text.toLowerCase();
+console.log(aMinuscules("HOLA"));
