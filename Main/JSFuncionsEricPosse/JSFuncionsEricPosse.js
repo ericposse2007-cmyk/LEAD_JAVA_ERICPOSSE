@@ -92,7 +92,11 @@ const mateixValorITipus = (valor1, valor2) => {
     return valor1 === valor2;
 };
 
-// Proves per comprovar-ho:
+/*Proves per comprovar-ho:*/
 console.log(mateixValorITipus(5, 5));
 console.log(mateixValorITipus(5, "5"));
 console.log(mateixValorITipus("a", "a"));
+/*EX11*/
+console.log("EX11");
+const arrelQuadrada = num => Math.sqrt(num).toFixed(2);
+console.log("L'arrel quadrada de 16 amb dos decimals és: " + arrelQuadrada(16));
