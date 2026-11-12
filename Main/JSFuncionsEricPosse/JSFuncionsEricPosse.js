@@ -129,3 +129,8 @@ let fraseEx = "Hola com estas";
 let paraulaEx = "com";
 console.log("Resultat posicio: " + posicio(fraseEx, paraulaEx));
 console.log("Resultat dividir: " + dividir(fraseEx, paraulaEx));
+/*EX15*/
+console.log("EX15");
+const triplicar = (x) => x + x + x;
+console.log(triplicar(5));
+console.log(triplicar("Hola"));
