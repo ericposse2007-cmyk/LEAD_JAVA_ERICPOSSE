@@ -85,3 +85,14 @@ const comprovar30anonim = function(num1, num2) {
 console.log(comprovar30anonim(15, 15));
 console.log(comprovar30anonim(30, 5));
 console.log(comprovar30anonim(10, 10));
+/*EX10*/
+console.log("EX10");
+/* == igualtat debil/=== igualtat estricta*/
+const mateixValorITipus = (valor1, valor2) => {
+    return valor1 === valor2;
+};
+
+// Proves per comprovar-ho:
+console.log(mateixValorITipus(5, 5));
+console.log(mateixValorITipus(5, "5"));
+console.log(mateixValorITipus("a", "a"));
