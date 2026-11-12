@@ -115,3 +115,17 @@ const retornarNoNull = (val1, val2) => {
 }
 console.log(retornarNoNull(null, "Hola"));
 console.log(retornarNoNull(42, null));
+/*EX14*/
+console.log("EX14");
+const posicio = (frase, paraula) => {
+    let indexInici = frase.indexOf(paraula);
+    return frase.length - indexInici;
+};
+const dividir = (frase, paraula) => {
+    let indexInici = frase.indexOf(paraula);
+    return frase.substring(indexInici);
+};
+let fraseEx = "Hola com estas";
+let paraulaEx = "com";
+console.log("Resultat posicio: " + posicio(fraseEx, paraulaEx));
+console.log("Resultat dividir: " + dividir(fraseEx, paraulaEx));
