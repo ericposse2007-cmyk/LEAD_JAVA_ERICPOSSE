@@ -104,3 +104,14 @@ console.log("L'arrel quadrada de 16 amb dos decimals és: " + arrelQuadrada(16))
 console.log("EX12");
 const aMinuscules = text => text.toLowerCase();
 console.log(aMinuscules("HOLA"));
+/*EX13*/
+console.log("EX13");
+const retornarNoNull = (val1, val2) => {
+    if (val1 !== null) {
+        return val1;
+    } else {
+        return val2;
+    }
+}
+console.log(retornarNoNull(null, "Hola"));
+console.log(retornarNoNull(42, null));
