@@ -73,3 +73,15 @@ function comprovar30(num1, num2) {
 console.log(comprovar30(15, 15));
 console.log(comprovar30(30, 5));
 console.log(comprovar30(10, 10));
+/*EX9*/
+console.log("EX9");
+const comprovar30anonim = function(num1, num2) {
+    if (num1 === 30 || num2 === 30 || (num1 + num2) === 30) {
+        return true;
+    } else {
+        return false;
+    }
+};
+console.log(comprovar30anonim(15, 15));
+console.log(comprovar30anonim(30, 5));
+console.log(comprovar30anonim(10, 10));
