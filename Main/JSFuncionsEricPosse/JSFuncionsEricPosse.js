@@ -43,3 +43,13 @@ function comptarVocals(text) {
 let frase = "Hola";
 let resultat = comptarVocals(frase);
 console.log("El text conté " + resultat + " vocals.");
+/*EX6*/
+console.log("EX6");
+function sumarTres(num1, num2, num3 = 10) {
+    let suma = num1 + num2 + num3;
+    return suma;
+}
+let prova1 = sumarTres(2, 3, 5);
+console.log("Suma de 3: " + prova1);
+let prova2 = sumarTres(2, 3);
+console.log("Suma amb valor per defecte: " + prova2);
