@@ -66,6 +66,20 @@ num(3)
 num(7)
 num(21)
 num(8)
+/*EX5*/
+console.log("EX5 con IF")
 
-
-
+function trobaMaximN(x) {
+    let suma = 0;
+    let n = 0;
+    for (let i = 1; i <= x; i++) {
+        if (suma + i > x) {
+            break;
+        }
+        suma += i;
+        n = i;
+    }
+    console.log("Per a x = " + x + ", el màxim n és: " + n + ",Suma total =" + suma);
+}
+trobaMaximN(15)
+trobaMaximN(20)
