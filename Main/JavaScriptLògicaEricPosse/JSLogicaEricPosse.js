@@ -20,5 +20,30 @@ x > 10 && x<50? console.log("x esta en el rang de 10 a 50")
         : console.log("x No esta en el rang")
 y > 10 && y<50? console.log("y esta en el rang de 10 a 50")
     : console.log("y No esta en el rang")
+/*EX3*/
+console.log("EX3")
+function nota(x){
+    if(x <=4.99){
+      console.log("suspes")
+    }
+    else if(x>=5 && x<6){
+        console.log("suficient")
+    }
+    else if(x>=6 && x<7){
+        console.log("Bé")
+    }
+    else if(x>= 7&& x<9){
+        console.log("Notable")
+    }
+    else{
+        console.log("Excel·lent")
+    }
+}
+nota(0,4,99)
+nota(5,5,99)
+nota(6,6,99)
+nota(7,8,99)
+nota(9,10)
+
 
 
