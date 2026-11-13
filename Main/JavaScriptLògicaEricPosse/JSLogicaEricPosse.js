@@ -44,6 +44,28 @@ nota(5,5,99)
 nota(6,6,99)
 nota(7,8,99)
 nota(9,10)
+/*EX4*/
+console.log("EX4")
+function num(num1){
+    switch (true) {
+        case (num1 % 3 == 0 && num1 % 7 == 0):
+            console.log(num1 + " és múltiple de 3 i de 7");
+            break;
+        case (num1 % 3 == 0):
+            console.log(num1 + " és múltiple de 3");
+            break;
+        case (num1 % 7 == 0):
+            console.log(num1 + " és múltiple de 7");
+            break;
+        default:
+            console.log(num1 + " no és múltiple de cap dels dos");
+            break;
+    }
+}
+num(3)
+num(7)
+num(21)
+num(8)
 
 
 
