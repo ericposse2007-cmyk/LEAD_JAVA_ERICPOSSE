@@ -139,3 +139,17 @@ function patroFacil() {
     }
 }
 patroFacil();
+/*EX10*/
+console.log("EX10");
+function sumarMultiples() {
+    let suma = 0;
+    let i = 1;
+    do {
+        if (i % 3 === 0 || i % 5 === 0) {
+            suma += i;
+        }
+        i++;
+    } while (i <= 1000);
+    console.log("La suma total es:", suma);
+}
+sumarMultiples();
