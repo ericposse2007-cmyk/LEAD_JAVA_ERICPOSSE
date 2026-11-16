@@ -170,11 +170,11 @@ patroImparell();
 console.log("EX12")
 function longitud(x) {
     let numero = "123456";
-    let resultado = "";
+    let resultat = "";
 
     for (let i = 0; i < numero.length; i += 2) {
-        resultado += numero[i + 1] + numero[i];
+        resultat += numero[i + 1] + numero[i];
     }
-    console.log(resultado)
+    console.log(resultat)
 }
 longitud()
