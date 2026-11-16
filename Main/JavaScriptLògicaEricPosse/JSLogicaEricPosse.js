@@ -94,3 +94,25 @@ function string(x) {
     console.log(suma);
 }
 string("325");
+/*EX7*/
+console.log("EX7");
+function ordenarSuperFacil(x, y, z) {
+    let aux;
+    if (x < y) {
+        aux = x;
+        x = y;
+        y = aux;
+    }
+    if (x < z) {
+        aux = x;
+        x = z;
+        z = aux;
+    }
+    if (y < z) {
+        aux = y;
+        y = z;
+        z = aux;
+    }
+    console.log("De major a menor:", x, y, z);
+}
+ordenarSuperFacil(3, 10, 7);
