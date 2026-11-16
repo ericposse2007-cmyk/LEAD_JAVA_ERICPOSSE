@@ -166,3 +166,15 @@ function patroImparell() {
     }
 }
 patroImparell();
+/*EX12*/
+console.log("EX12")
+function longitud(x) {
+    let numero = "123456";
+    let resultado = "";
+
+    for (let i = 0; i < numero.length; i += 2) {
+        resultado += numero[i + 1] + numero[i];
+    }
+    console.log(resultado)
+}
+longitud()
