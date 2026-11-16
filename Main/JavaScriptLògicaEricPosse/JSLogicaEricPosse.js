@@ -68,7 +68,6 @@ num(21)
 num(8)
 /*EX5*/
 console.log("EX5 con IF")
-
 function trobaMaximN(x) {
     let suma = 0;
     let n = 0;
@@ -83,3 +82,15 @@ function trobaMaximN(x) {
 }
 trobaMaximN(15)
 trobaMaximN(20)
+/* EX6 */
+console.log("EX6");
+function string(x) {
+    let suma = 0;
+    for (let i = 0; i < x.length; i++) {
+        if (x[i] >= "0" && x[i] <= "9") {
+            suma = suma + Number(x[i]);
+        }
+    }
+    console.log(suma);
+}
+string("325");
