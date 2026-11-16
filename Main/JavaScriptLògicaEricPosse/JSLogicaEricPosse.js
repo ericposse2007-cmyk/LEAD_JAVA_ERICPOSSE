@@ -129,3 +129,13 @@ function parells_senars (x){
     }
 }
 parells_senars(11)
+/*EX9*/
+console.log("EX9");
+function patroFacil() {
+    let linia = "";
+    for (let i = 1; i <= 5; i++) {
+        linia += "*";
+        console.log(linia);
+    }
+}
+patroFacil();
