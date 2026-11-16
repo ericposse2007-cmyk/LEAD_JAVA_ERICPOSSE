@@ -116,3 +116,16 @@ function ordenarSuperFacil(x, y, z) {
     console.log("De major a menor:", x, y, z);
 }
 ordenarSuperFacil(3, 10, 7);
+/*EX8*/
+console.log("EX8")
+function parells_senars (x){
+    for (let i = 1;i<x;i++){
+        if(i % 2 === 0){
+            console.log(i + ":Es parell")
+        }
+        else{
+            console.log(i + ":es senar")
+        }
+    }
+}
+parells_senars(11)
