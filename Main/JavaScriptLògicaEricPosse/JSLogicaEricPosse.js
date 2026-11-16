@@ -153,3 +153,16 @@ function sumarMultiples() {
     console.log("La suma total es:", suma);
 }
 sumarMultiples();
+/*EX11*/
+console.log("EX11");
+function patroImparell() {
+    let linia = "";
+    for (let i = 1; i <= 5; i++) {
+        linia += "*";
+        if (i % 2 === 0) {
+            continue;
+        }
+        console.log(linia);
+    }
+}
+patroImparell();
