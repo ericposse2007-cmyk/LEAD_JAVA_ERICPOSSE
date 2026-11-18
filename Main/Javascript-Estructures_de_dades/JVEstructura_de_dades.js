@@ -1,4 +1,5 @@
 /*EX1*/
+console.log("EX1")
 const numeros = [];
 for (let i = 0; i < 5; i++) {
     numeros.push(Math.floor(Math.random() * 10) + 1);
@@ -14,3 +15,8 @@ for (let j = 0; j < numeros.length - 1; j++) {
     }
 }
 console.log(numeros)
+/*EX2*/
+console.log("EX2")
+const copianumeros = [...numeros];
+console.log("Còpia amb propagació:", copianumeros);
+
