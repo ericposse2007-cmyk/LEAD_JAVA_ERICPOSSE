@@ -26,13 +26,7 @@ const array2 =[3,1];
 const fusion = [...array1, ...array2];
 console.log(fusion);
 /*EX4*/
-console.log("EX4")
-for (let i =0;i<fusion.length-1;i++){
-    if (fusion[i]==fusion[i+1]){
-        fusion[i] = fusion[fusion.length - 1];
-        fusion[fusion.length - 1] = aux;
-        fusion.pop();
-        i--;
-    }
-}
-console.log(fusion)
+console.log("EX4");
+const unics = new Set(fusion);
+const fusionSenseDuplicats = [...unics];
+console.log(fusionSenseDuplicats);
