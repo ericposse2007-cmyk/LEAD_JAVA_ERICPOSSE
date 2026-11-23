@@ -52,3 +52,10 @@ for (let i = 0; i < palabras.length; i++) {
     }
 }
 console.log(nuevoArray);
+/*EX7*/
+console.log("EX7")
+const mapa = new Map();
+mapa.set(1, "primera cosa");
+mapa.set("clau", "segona cosa");
+mapa.set(true, "tercera cosa");
+console.log(mapa);
