@@ -30,3 +30,8 @@ console.log("EX4");
 const unics = new Set(fusion);
 const fusionSenseDuplicats = [...unics];
 console.log(fusionSenseDuplicats);
+/*EX5*/
+console.log("EX5")
+const num = [1, 3, 6];
+const cubs = num.map(num => num ** 3);/** significa multiplicarlo per 3 vegades,seri un num*num*num*/
+console.log(cubs);
