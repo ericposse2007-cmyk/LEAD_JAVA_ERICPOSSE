@@ -79,20 +79,53 @@ for (let i = 0; i < array.length; i++) {
 }
 /*EX9*/
 console.log("EX9")
+const actors_cars =["Owen Wilson","Larry the Cable Guy","Michael Caine"]
+const actors_up =["Ed Asner","Jordan Nagai","Christopher Plummer"]
 class Pelicula {
-    constructor(titol, descripcio, anyEstrena) {
+    constructor(titol, descripcio, anyEstrena,actors) {
         this.titol = titol;
         this.descripcio = descripcio;
         this.anyEstrena = anyEstrena;
+        this.actors = actors;
     }
 }
 
-const peli1 = new Pelicula("Cars2", "Un cotxe deprimit lluita amb espias mentres el seu millor amic fa carreras", 2011);
+const peli1 = new Pelicula("Cars2",
+    "Un cotxe deprimit lluita amb espias mentres el seu millor amic fa carreras",
+    2011,
+    actors_cars);
 const peli2 = {
     titol: "Up",
     descripcio: "Un vell viatja amb una casa lligada a globus.",
-    anyEstrena: 2009
+    anyEstrena: 2009,
+    actors: actors_up,
 };
 
 console.log(peli1.titol, peli1.descripcio, peli1.anyEstrena);
 console.log(peli2.titol, peli2.descripcio, peli2.anyEstrena);
+/* EX10 */
+console.log("EX10");
+const cuaPelis = [];
+cuaPelis.push(peli1);
+cuaPelis.push(peli2);
+let mesAntiga = cuaPelis.shift();
+while (cuaPelis.length > 0) {
+    const actual = cuaPelis.shift();
+    if (actual.anyEstrena < mesAntiga.anyEstrena) {
+        mesAntiga = actual;
+    }
+}
+console.log("La pel·lícula més antiga és:", mesAntiga.titol);
+/* EX11 */
+console.log("EX11");
+const cua = [];
+cua.push(peli1);
+cua.push(peli2);
+
+for (let i = 0; i < cua.length; i++) {
+    console.log("Actors de " + cua[i].titol + ":");
+
+    for (let j = 0; j < cua[i].actors.length; j++) {
+        console.log(cua[i].actors[j]);
+    }
+}
