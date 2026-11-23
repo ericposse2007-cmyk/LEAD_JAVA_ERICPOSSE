@@ -35,3 +35,20 @@ console.log("EX5")
 const num = [1, 3, 6];
 const cubs = num.map(num => num ** 3);/** significa multiplicarlo per 3 vegades,seri un num*num*num*/
 console.log(cubs);
+/*EX6*/
+console.log("EX6")
+const palabras = ["casa", "sol", "taula", "gat"];
+const nuevoArray = [];
+for (let i = 0; i < palabras.length; i++) {
+    const palabraActual = palabras[i];
+    let compt = 0;
+    for (let j = 0; j < palabraActual.length; j++) {
+        if (palabraActual[j] === "a") {
+            compt++;
+        }
+    }
+    if (compt > 1) {
+        nuevoArray.push(palabraActual);
+    }
+}
+console.log(nuevoArray);
