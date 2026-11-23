@@ -59,3 +59,21 @@ mapa.set(1, "primera cosa");
 mapa.set("clau", "segona cosa");
 mapa.set(true, "tercera cosa");
 console.log(mapa);
+/* EX8 */
+console.log("EX8");
+const array = ["anna", "sortida", "ara"];
+for (let i = 0; i < array.length; i++) {
+    const cua = [];
+    for (let j = 0; j < array[i].length; j++) {
+        cua.push(array[i][j]);
+    }
+    let girada = "";
+    while (cua.length > 0) {
+        girada = cua.shift() + girada;
+    }
+    if (array[i] === girada) {
+        console.log(array[i] + " palíndrom");
+    } else {
+        console.log(array[i] + " no palíndrom");
+    }
+}
