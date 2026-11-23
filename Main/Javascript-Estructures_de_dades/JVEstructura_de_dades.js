@@ -77,3 +77,22 @@ for (let i = 0; i < array.length; i++) {
         console.log(array[i] + " no palíndrom");
     }
 }
+/*EX9*/
+console.log("EX9")
+class Pelicula {
+    constructor(titol, descripcio, anyEstrena) {
+        this.titol = titol;
+        this.descripcio = descripcio;
+        this.anyEstrena = anyEstrena;
+    }
+}
+
+const peli1 = new Pelicula("Cars2", "Un cotxe deprimit lluita amb espias mentres el seu millor amic fa carreras", 2011);
+const peli2 = {
+    titol: "Up",
+    descripcio: "Un vell viatja amb una casa lligada a globus.",
+    anyEstrena: 2009
+};
+
+console.log(peli1.titol, peli1.descripcio, peli1.anyEstrena);
+console.log(peli2.titol, peli2.descripcio, peli2.anyEstrena);
